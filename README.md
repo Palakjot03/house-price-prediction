@@ -14,4 +14,21 @@ This project applies machine learning techniques to classify residential propert
 - Scikit-learn
 - Google Colab
 
-  
+## Data Cleaning and Feature Engineering
+
+## Exploratory Data Analysis
+
+## Machine Learning Models
+
+## Results
+
+## Visualisations
+
+### Correlation Heatmap
+
+![Correlation Heatmap](images/Unknown-5.png)
+
+The heatmap was used during exploratory data analysis to identify relationships between the features and understand which variables were likely to influence the target variable.
+
+
+## Future Improvements
