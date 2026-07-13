@@ -34,7 +34,7 @@ This visualisation illustrates the distribution of house price categories within
 ### Correlation Heatmap
 
 
-![Correlation Heatmap](images/Unknown-5.png)
+![Correlation Heatmap](images/heatmap.png)
 
 The heatmap was used during exploratory data analysis to identify relationships between the features and understand which variables were likely to influence the target variable.
 
