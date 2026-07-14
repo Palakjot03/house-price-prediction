@@ -14,6 +14,20 @@ This project applies machine learning techniques to classify residential propert
 - Scikit-learn
 - Google Colab
 
+## Requirements
+
+The project was developed using Python and requires the following libraries:
+
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Imbalanced-learn (SMOTE)
+- Jupyter Notebook
+
+All required dependencies are listed in the `requirements.txt` file.
+
 ## Data Cleaning and Preprocessing
 
 Before training the machine learning models, the dataset was preprocessed to improve data quality and model performance.
@@ -104,3 +118,25 @@ Several enhancements could be made to further improve the performance and usabil
 - Deploy the trained model as a web application using Streamlit or Flask, allowing users to interact with the model through a simple interface.
 - Test the model on larger and more diverse housing datasets to evaluate its generalisation and robustness.
 - Implement cross-validation and additional evaluation metrics to further assess model reliability.
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/house-price-classification.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd house-price-classification
+```
+
+3. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Open the Jupyter Notebook (or Google Colab) and run the notebook cells in sequence to reproduce the analysis, train the models and evaluate the results.
