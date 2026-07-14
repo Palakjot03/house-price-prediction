@@ -124,7 +124,7 @@ Several enhancements could be made to further improve the performance and usabil
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/house-price-classification.git
+git clone https://github.com/Palakjot03/house-price-classification.git
 ```
 
 2. Navigate to the project directory:
