@@ -28,6 +28,14 @@ The project was developed using Python and requires the following libraries:
 
 All required dependencies are listed in the `requirements.txt` file.
 
+## Dataset
+
+This project uses a publicly available housing dataset containing a range of residential property attributes, including numerical and categorical features. The dataset was used to classify properties into different house price categories based on their characteristics.
+
+The dataset was preprocessed prior to model training to ensure data quality and improve classification performance.
+
+https://www.kaggle.com/datasets/shree1992/housedata/data
+
 ## Data Cleaning and Preprocessing
 
 Before training the machine learning models, the dataset was preprocessed to improve data quality and model performance.
@@ -78,6 +86,12 @@ Three machine learning models were trained and evaluated using classification me
 The Random Forest classifier achieved the strongest overall performance, providing the highest classification accuracy and the most consistent predictions across the house price categories.
 
 A comparison of all models demonstrated that ensemble learning outperformed both the K-Nearest Neighbours and Multi-Layer Perceptron models for this dataset.
+
+![Model Performance Comparison](images/model-comparison.png)
+
+The KNN model recorded highest accuracy of 75.4% and strong weighted F1-score of 0.75 among them. The Random Forest classifier was then closely followed, also achieving a precision and recall balance of 75% accuracy and matching F1 score.
+Overall, it performed similarly to the Random Forest model with same performance i.e., it had 75 % accuracy and 0.75 F1-score, but the classification for high price category was better than its Gradient Boosting model (Lu et al. 2023). While the Gradient Boosting model had a slightly less accuracy at 72%, the 0.971 F1 score, it was still successful in building a model to recognize patterns with lower priced properties. 
+
 
 ## Visualisations
 
