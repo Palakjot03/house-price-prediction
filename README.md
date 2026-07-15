@@ -89,8 +89,12 @@ A comparison of all models demonstrated that ensemble learning outperformed both
 
 ![Model Performance Comparison](images/model-comparison.png)
 
-The KNN model recorded highest accuracy of 75.4% and strong weighted F1-score of 0.75 among them. The Random Forest classifier was then closely followed, also achieving a precision and recall balance of 75% accuracy and matching F1 score.
-Overall, it performed similarly to the Random Forest model with same performance i.e., it had 75 % accuracy and 0.75 F1-score, but the classification for high price category was better than its Gradient Boosting model (Lu et al. 2023). While the Gradient Boosting model had a slightly less accuracy at 72%, the 0.971 F1 score, it was still successful in building a model to recognize patterns with lower priced properties. 
+
+This chart compares the classification accuracy of the three machine learning models evaluated during the project.
+
+The **Random Forest** classifier achieved the highest accuracy of approximately **85%**, outperforming both the **K-Nearest Neighbours (KNN)** model, which achieved around **82%**, and the **Multi-Layer Perceptron (MLP) Neural Network**, which achieved approximately **80%**.
+
+These results indicate that the Random Forest model provided the most reliable performance for classifying house price categories on this dataset, making it the best-performing model among those evaluated.
 
 
 ## Visualisations
